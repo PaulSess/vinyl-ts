@@ -1,3 +1,29 @@
+The website promotes a vinyl recorder that has the unique ability to play and record new vinyls on the same machine. This means that users can listen to their favorite records while also creating their own personalized vinyls using the same device. The website likely highlights the various features and benefits of the recorder, such as high-quality audio output, ease of use, and customization options. It may also include customer reviews and testimonials, technical specifications, and pricing information. Additionally, the website may provide information about the history and resurgence of vinyl records and how this recorder fits into that cultural trend.
+
+<img src="./public/Screenshot (69).png" alt="vinylplayer">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
