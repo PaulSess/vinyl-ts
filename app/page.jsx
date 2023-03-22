@@ -48,17 +48,17 @@ export default function Home() {
         <img style={{width:'400px', marginRight:'10%'}} src="product.png" alt="logo" />
       </section>
 
-      <section>
+      <section style={{display:'flex', justifyContent:'space-around'}}>
         <div>
           <img style={{width:'350px'}} src="landingpage portrait1.jpg" alt="img step 1" />
           <p>Description</p>
         </div>
         <div>
-          <img style={{width:'350px'}} src="landingpage portrait2.jpg" alt="img step 2" />
+          <img style={{width:'350px', marginTop:'150px'}} src="landingpage portrait2.jpg" alt="img step 2" />
           <p>Description</p>
         </div>
         <div>
-          <img style={{width:'350px'}} src="landingpage portrait3.jpg" alt="img step 3" />
+          <img style={{width:'350px', marginTop:'300px'}} src="landingpage portrait3.jpg" alt="img step 3" />
           <p>Description</p>
         </div>
       </section>
