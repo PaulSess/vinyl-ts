@@ -34,9 +34,9 @@ export default function Home() {
       {/* <script type="text/javascript">
         const herovideo = document.getElementById('herovideo');
       </script> */}
-      <section style={{display:'flex', justifyContent:'center', alignContent:'center', marginTop:'13%'}}>
+      <section style={{display:'flex', justifyContent:'center', alignContent:'center', marginTop:'18%'}}>
         <img style={{width:'400px', marginRight:'100px'}} id='pageproduct' src="product.png" alt="the vinyl player" />
-        <img style={{position:'absolute', zIndex:'-1', left:'-20px', top:'100px'}} src="product-blob.svg" alt="bg blob" />
+        <img style={{position:'absolute', zIndex:'-1', left:'-20px', top:'160px'}} src="product-blob.svg" alt="bg blob" />
         <div>
           <h1 style={{marginBottom:'100px'}}>Tomer's Vinyl LifeHack<div id='headerbackground'></div></h1>
           <h2 style={{marginLeft:'30px'}}>Short catchy sentence about the mission here!</h2>
@@ -48,7 +48,7 @@ export default function Home() {
         <img style={{width:'400px', marginRight:'10%'}} src="product.png" alt="logo" />
       </section>
 
-      <section style={{display:'flex', justifyContent:'space-around'}}>
+      <section style={{display:'flex', justifyContent:'space-around', marginTop:'20%'}}>
         <div>
           <img style={{width:'350px'}} src="landingpage portrait1.jpg" alt="img step 1" />
           <p>Description</p>
@@ -62,6 +62,34 @@ export default function Home() {
           <p>Description</p>
         </div>
       </section>
+
+      <section style={{margin:'200px 10%'}}>
+        <h1 style={{marginBottom:'100px', margin:'100px 0 180px 5%'}}>The Features</h1>
+        <div className="featurediv" style={{display:'flex'}}>
+          <img src="product.png" alt="featrue img" style={{width:'20%'}} />
+          <div className="featuretxt-carousell" style={{marginLeft:'20%', paddingRight:'10%'}} >
+            <h2>Feature</h2>
+            <h4>Feature Description<br></br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum error placeat necessitatibus magni quisquam inventore ullam, minima mollitia dicta neque veritatis, quis corrupti porro tenetur optio? Rerum, accusantium nihil.
+            </h4>
+          </div>
+        </div>
+      </section>
+
+      <footer style={{height:'600px', backgroundColor:'grey', marginTop:'100px', display:'flex', justifyContent:'space-around'}}>
+        <div>
+          <h1>Massive Footer</h1>
+          <form action="">
+          <label htmlFor="footerinput"><input id='footerinput' type="text" /><button type='submit'>Send</button></label>
+          </form>
+        </div>
+        <div>
+          <h3>Social media stuff</h3>
+        </div>
+        <div>
+          <p>bottom line copy right stuff</p>
+        </div>
+      </footer>
     </>
   )
 }
