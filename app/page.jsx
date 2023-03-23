@@ -2,8 +2,9 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 
-import Featureslide from './components/feature-slide';
 import Navbar from './components/navbar';
+import Imagestairs from './components/img-stairs';
+import Featureslide from './components/feature-slide';
 import Footer from './components/footer';
 
 import Head from 'next/head';
@@ -45,25 +46,16 @@ export default function Home() {
         <img style={{width:'400px', marginRight:'10%'}} src="product.png" alt="logo" />
       </section>
 
-      <section style={{display:'flex', justifyContent:'space-around', marginTop:'20%'}}>
-        <div>
-          <img style={{width:'350px'}} src="landingpage portrait1.jpg" alt="img step 1" />
-          <p>Description</p>
-        </div>
-        <div>
-          <img style={{width:'350px', marginTop:'150px'}} src="landingpage portrait2.jpg" alt="img step 2" />
-          <p>Description</p>
-        </div>
-        <div>
-          <img style={{width:'350px', marginTop:'300px'}} src="landingpage portrait3.jpg" alt="img step 3" />
-          <p>Description</p>
-        </div>
-      </section>
+      <Imagestairs />
 
       <h1 style={{marginBottom:'100px', margin:'200px 0 50px 5%'}}>The Features</h1>
       <div style={{width:'100%', display:'flex', overflowX:'auto'}}>
-        <Featureslide />
-        {/* <Featureslide /> */}
+
+        <Featureslide
+          header="Feature"
+          descriptionHeader="The description"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum error placeat necessitatibus magni quisquam inventore ullam, minima mollitia dicta neque veritatis, quis corrupti porro tenetur optio? Rerum, accusantium nihil."/>
+
       </div>
 
       <Footer />
