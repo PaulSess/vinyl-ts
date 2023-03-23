@@ -2,8 +2,7 @@
 export default function Featureslide() {
   return (
     <>
-
-        <div className="featurediv" style={{display:'flex', margin:'200px 10%', width:'50%'}}>
+        <div className="featurediv" style={{display:'flex', margin:'200px 10%', width:'100%'}}>
           <img src="product.png" alt="featrue img" style={{width:'20%'}} />
           <div className="featuretxt-carousell" style={{marginLeft:'20%', paddingRight:'10%'}} >
             <h2>Feature</h2>
@@ -12,7 +11,6 @@ export default function Featureslide() {
             </h4>
           </div>
         </div>
-
     </>
   )
 }

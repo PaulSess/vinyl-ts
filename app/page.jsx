@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 
 import Featureslide from './components/feature-slide';
+import Navbar from './components/navbar';
+import Footer from './components/footer';
 
 import Head from 'next/head';
 
@@ -16,16 +18,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link rel="icon" href="/favicon.ico.svg" />
       </Head>
-      <section style={{position:'relative'}}>
-        <nav className='navbar' style={{display: 'flex', justifyContent: 'space-around'}}>
-          <img src="tomer.jpg" alt="tomer logo" width={100} height="auto" />
-          <ul className='nav-list' style={{margin:'auto 0', width: '500px', display: 'flex', justifyContent: 'space-between'}}>
-            <a className='nav-link' href="/productshow">The Product</a>
-            <a className='nav-link' href="/about">About</a>
-            <a className='nav-link' href="/manual">Manual</a>
-          </ul>
-        </nav>
-      </section>
+
+      <Navbar />
       {/* <iframe
         id='herovideo'
         src="https://drive.google.com/file/d/1fiOlOy5wMR5uA2CpYpf0xXbPv44XzLX4/preview"
@@ -35,6 +29,8 @@ export default function Home() {
       {/* <script type="text/javascript">
         const herovideo = document.getElementById('herovideo');
       </script> */}
+
+
       <section style={{display:'flex', justifyContent:'center', alignContent:'center', marginTop:'18%'}}>
         <img style={{width:'400px', marginRight:'100px'}} id='pageproduct' src="product.png" alt="the vinyl player" />
         <img style={{position:'absolute', zIndex:'-1', left:'-20px', top:'160px'}} src="product-blob.svg" alt="bg blob" />
@@ -64,26 +60,13 @@ export default function Home() {
         </div>
       </section>
 
-      <h1 style={{marginBottom:'100px', margin:'100px 0 180px 5%'}}>The Features</h1>
-      <div style={{display:'flex', overflowX:'auto'}}>
+      <h1 style={{marginBottom:'100px', margin:'200px 0 50px 5%'}}>The Features</h1>
+      <div style={{width:'100%', display:'flex', overflowX:'auto'}}>
         <Featureslide />
-        <Featureslide />
+        {/* <Featureslide /> */}
       </div>
 
-      <footer style={{height:'600px', backgroundColor:'grey', marginTop:'100px', display:'flex', justifyContent:'space-around'}}>
-        <div>
-          <h1>Massive Footer</h1>
-          <form action="">
-          <label htmlFor="footerinput"><input id='footerinput' type="text" /><button type='submit'>Send</button></label>
-          </form>
-        </div>
-        <div>
-          <h3>Social media stuff</h3>
-        </div>
-        <div>
-          <p>bottom line copy right stuff</p>
-        </div>
-      </footer>
+      <Footer />
     </>
   )
 }
