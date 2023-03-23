@@ -3,34 +3,20 @@ import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 
 import Navbar from './components/navbar';
+import Herovideo from './components/herovideo';
 import Imagestairs from './components/img-stairs';
 import Featureslide from './components/feature-slide';
 import Footer from './components/footer';
 
-import Head from 'next/head';
+// import Head from 'next/head';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Tomer's Vinyl</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <link rel="icon" href="/favicon.ico.svg" />
-      </Head>
-
       <Navbar />
-      {/* <iframe
-        id='herovideo'
-        src="https://drive.google.com/file/d/1fiOlOy5wMR5uA2CpYpf0xXbPv44XzLX4/preview"
-        width="100%" height="100%" allow="autoplay"
-        style={{position:'absolute', top:'0'}}>
-      </iframe> */}
-      {/* <script type="text/javascript">
-        const herovideo = document.getElementById('herovideo');
-      </script> */}
-
+      <Herovideo />
 
       <section style={{display:'flex', justifyContent:'center', alignContent:'center', marginTop:'18%'}}>
         <img style={{width:'400px', marginRight:'100px'}} id='pageproduct' src="product.png" alt="the vinyl player" />
@@ -46,7 +32,11 @@ export default function Home() {
         <img style={{width:'400px', marginRight:'10%'}} src="product.png" alt="logo" />
       </section>
 
-      <Imagestairs />
+      <Imagestairs
+        description1="Description1"
+        description2="Description2"
+        description3="Description3"
+        />
 
       <h1 style={{marginBottom:'100px', margin:'200px 0 50px 5%'}}>The Features</h1>
       <div style={{width:'100%', display:'flex', overflowX:'auto'}}>

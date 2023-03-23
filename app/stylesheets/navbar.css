@@ -3,6 +3,16 @@
   display: flex;
   justify-content: space-around;
 }
+#nav-logo {
+  width: 200px;
+  filter: sepia(60%);
+  position: relative;
+}
+#bg{
+  background: red;
+  position: absolute;
+  width: 200px;
+}
 .nav-list {
   margin:auto 0;
   width: 500px;

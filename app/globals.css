@@ -83,6 +83,8 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background: rgb(91,75,23);
+  background: linear-gradient(0deg, rgba(91,75,23,1) 0%, rgba(148,131,86,1) 50%, rgba(92,69,10,1) 100%);
 }
 
 body {
