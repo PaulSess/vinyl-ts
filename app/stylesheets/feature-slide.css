@@ -1,0 +1,12 @@
+.featurediv {
+  display: flex;
+  margin: 200px 10%;
+  width: 100%;
+}
+.featureimg {
+  width:20%;
+}
+.featuretxt-carousell {
+  margin-left: 20%;
+  padding-right: 10%;
+}

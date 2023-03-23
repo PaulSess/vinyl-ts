@@ -1,9 +1,9 @@
-
+import footer from "../stylesheets/footer.css"
 
 export default function Footer() {
   return (
     <>
-      <footer style={{height:'600px', backgroundColor:'grey', marginTop:'100px', display:'flex', justifyContent:'space-around'}}>
+      <footer id="footer">
         <div>
           <h1>Massive Footer</h1>
           <form action="">

@@ -3,3 +3,9 @@
   display: flex;
   justify-content: space-around;
 }
+.nav-list {
+  margin:auto 0;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
