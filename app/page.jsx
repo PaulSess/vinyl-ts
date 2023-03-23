@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 
+import Featureslide from './components/feature-slide';
 
 import Head from 'next/head';
 
@@ -63,18 +64,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section style={{margin:'200px 10%'}}>
-        <h1 style={{marginBottom:'100px', margin:'100px 0 180px 5%'}}>The Features</h1>
-        <div className="featurediv" style={{display:'flex'}}>
-          <img src="product.png" alt="featrue img" style={{width:'20%'}} />
-          <div className="featuretxt-carousell" style={{marginLeft:'20%', paddingRight:'10%'}} >
-            <h2>Feature</h2>
-            <h4>Feature Description<br></br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum error placeat necessitatibus magni quisquam inventore ullam, minima mollitia dicta neque veritatis, quis corrupti porro tenetur optio? Rerum, accusantium nihil.
-            </h4>
-          </div>
-        </div>
-      </section>
+      <h1 style={{marginBottom:'100px', margin:'100px 0 180px 5%'}}>The Features</h1>
+      <div style={{display:'flex', overflowX:'auto'}}>
+        <Featureslide />
+        <Featureslide />
+      </div>
 
       <footer style={{height:'600px', backgroundColor:'grey', marginTop:'100px', display:'flex', justifyContent:'space-around'}}>
         <div>
