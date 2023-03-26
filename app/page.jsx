@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
+import Link from 'next/link';
 
 import Navbar from './components/navbar';
 import Herovideo from './components/herovideo';
@@ -15,12 +16,6 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      {/* <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,500;1,700;1,900&family=Taviraj:ital,wght@0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet" />
-      </Head> */}
-
       <Navbar />
       <Herovideo />
 
@@ -28,7 +23,7 @@ export default function Home() {
         <img style={{width:'400px', marginRight:'100px'}} id='pageproduct' src="hero-img.png" alt="the vinyl player" />
         {/* <img style={{position:'absolute', zIndex:'-1', left:'-20px', top:'160px'}} src="product-blob.svg" alt="bg blob" /> */}
         <div style={{marginTop:'2%'}}>
-          <h1 style={{marginBottom:'80px', fontFamily:'Gloock', fontSize:'60px', color:'whitesmoke', textShadow:'1px 1px 2px orange'}}>Tomer's Vinyl re-recorder<div id='headerbackground'></div></h1>
+          <h1 style={{marginBottom:'80px', fontFamily:'Gloock', fontSize:'60px', color:'whitesmoke', textShadow:'1px 1px 2px orange'}}>Tomer's Vinyl re-recorder<div style={{display:'none', position:'absolute', top:'30px', left:'30px', width:'100%', height:'420%', backgroundColor:'grey', opacity:'70%', borderRadius:'1px 40px 1px 40px'}} id='headerbackground'></div></h1>
           <h1 style={{marginLeft:'30px', color:'whitesmoke', textShadow:'1px 1px 2px orange'}}>Unleash the power of nostalgia with our vinyl player
           <br /> - play your old records and create new ones to keep the music alive!</h1>
         </div>
