@@ -13,7 +13,7 @@ export default function Imagestairs(props) {
           <p>{props.description2}</p>
         </div>
         <div>
-          <img className="stairimg3" src="landingpage portrait3.jpg" alt="img step 3" />
+          <img className="stairimg3" src="pexels-cottonbro-studio-3693099.jpg" alt="img step 3" />
           <p>{props.description3}</p>
         </div>
       </section>
