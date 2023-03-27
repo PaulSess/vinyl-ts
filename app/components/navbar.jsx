@@ -7,12 +7,27 @@ export default function Navbar() {
         <nav id="navbar">
           <div style={{position:'relative'}}>
             <div id="bg"></div>
-            <img id="nav-logo" src="tomer-logo-nobg.png" alt="tomer logo" height="auto" href='/' />
+            <Link href='/'>
+              <img id="nav-logo" src="tomer-logo-nobg.png" alt="tomer logo" height="auto"/>
+            </Link>
           </div>
+
           <ul className='nav-list'>
-            <a className='nav-link' href="/productshow">The Product</a>
-            <a className='nav-link' href="/about">About</a>
-            <a className='nav-link' href="/manual">Manual</a>
+            <li>
+              <Link href="/productshow" className='nav-link'>
+                The Product
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className='nav-link'>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link href="/manual" className='nav-link'>
+                Manual
+              </Link>
+            </li>
           </ul>
         </nav>
     </>

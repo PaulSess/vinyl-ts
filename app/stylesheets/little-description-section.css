@@ -1,0 +1,21 @@
+.littledescriptioinsec {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20%;
+  margin-bottom: 100px;
+}
+.description-text {
+  margin: auto 10%;
+  font-family: Taviraj;
+  font-weight: 300;
+  font-size: 19px;
+  color: #C8B6A6;
+  text-shadow: 1px 1px 2px black;
+}
+.description-image {
+  width: 340px;
+  margin-right: 10%;
+  border-radius: 30px 5px 30px 5px;
+  box-shadow: 0 0 0px 5px #8D7B68;
+  opacity: 80%;
+}

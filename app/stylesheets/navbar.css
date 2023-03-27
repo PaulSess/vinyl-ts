@@ -19,6 +19,9 @@
   position: absolute;
   width: 200px;
 }
+.nav-list > li {
+  list-style: none;
+}
 .nav-list {
   margin:auto 0;
   width: 500px;

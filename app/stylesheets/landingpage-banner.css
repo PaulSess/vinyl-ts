@@ -1,0 +1,36 @@
+.landingpagebanner-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 12%;
+}
+.banner-image {
+  width: 400px;
+  margin-right: 100px;
+}
+.banner-text-div {
+  margin-top: 2%;
+}
+.banner-primary-header {
+  margin-bottom: 80px;
+  font-family: Gloock;
+  font-size: 60px;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px orange;
+}
+.banner-bgstyle {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 100%;
+  height: 420%;
+  background-color: grey;
+  opacity: 70%;
+  border-radius: 1px 40px 1px 40px;
+}
+.banner-seondary-header {
+  margin-left: 30px;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px orange;
+}
