@@ -9,13 +9,13 @@
   font-family: Taviraj;
   font-weight: 300;
   font-size: 19px;
-  color: #C8B6A6;
+  color: #dabaa1;
   text-shadow: 1px 1px 2px black;
 }
 .description-image {
   width: 340px;
   margin-right: 10%;
   border-radius: 30px 5px 30px 5px;
-  box-shadow: 0 0 0px 5px #8D7B68;
+  box-shadow: 0 0 0px 5px #a28565;
   opacity: 80%;
 }

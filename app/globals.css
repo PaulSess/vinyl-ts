@@ -86,13 +86,16 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background: #8D7B68;
-  /* background: rgb(91,75,23); */
-  /* background: linear-gradient(0deg, rgba(91,75,23,1) 0%, rgba(148,131,86,1) 50%, rgba(92,69,10,1) 100%); */
-  background: linear-gradient(0deg, rgb(141, 123, 104) 0%, rgba(148,131,86,1) 50%, rgba(92,69,10,1) 100%);
+  background: rgb(152, 98, 23);
+  /* gradient background */
+  /* background: linear-gradient(0deg, rgb(141, 123, 104) 0%, rgba(148,131,86,1) 50%, rgba(92,69,10,1) 100%); */
+
+  /* texture background  */
+  background-image: url("https://www.transparenttextures.com/patterns/dark-denim.png");
+
 }
 
-body {
+/* body { */
   /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -100,7 +103,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
-}
 
 a {
   color: inherit;
